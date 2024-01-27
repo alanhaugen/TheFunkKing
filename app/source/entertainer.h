@@ -27,6 +27,7 @@ public:
 
 private:
     float clowndance;
+    bool isRejected;
 };
 
 #endif // ENTERTAINER_H

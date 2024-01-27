@@ -9,6 +9,7 @@ Entertainer::Entertainer()
     style = SLAPSTICK;
 
     clowndance = 0.0f;
+    isRejected = false;
 
     text1 = new Text(name.ToUpperCase(), 300, 150);
     text2 = new Text(description.ToUpperCase(), 600, 200);
@@ -27,10 +28,14 @@ void Entertainer::Hide()
     text1->Hide();
     text2->Hide();
     text3->Hide();
+
+    isRejected = true;
 }
 
 void Entertainer::Entertain()
 {
+    if (isRejected) return;
+
     appearance->Show();
     text1->Hide();
     text2->Hide();
