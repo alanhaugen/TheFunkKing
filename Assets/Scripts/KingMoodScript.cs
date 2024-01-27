@@ -10,11 +10,10 @@ public class KingMoodScript : MonoBehaviour
     public int kingsHappiness;
     public TMP_Text kingsHappText;
     
-    
     // Start is called before the first frame update
     void Start()
     {
-       kingsHappText.SetText(kingsHappiness.ToString());
+        kingsHappText.SetText(kingsHappiness.ToString());
     }
 
     // Update is called once per frame
