@@ -6,7 +6,13 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
- public void PlayGame()
+    public KingMoodScript kingMood; 
+    private void Start()
+    {
+        PlayerPrefs.SetInt("entertainerID", 0);
+        kingMood.ClearHappinessNumber();
+    }
+    public void PlayGame()
     {
         SceneManager.LoadScene(1);
     }
