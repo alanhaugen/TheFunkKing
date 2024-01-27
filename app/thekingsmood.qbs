@@ -33,6 +33,8 @@ solid {
             "data/solid.ico",
             "data/vertexanimation.frag",
             "data/vertexanimation.vert",
+            "source/entertainer.cpp",
+            "source/entertainer.h",
             "source/main.cpp",
             "source/main.h",
             "source/mainmenu.cpp",
@@ -41,6 +43,7 @@ solid {
             "source/splash.h",
             "source/game.cpp",
             "source/game.h",
+            "source/styles.h",
         ]
 
         Depends { name: "core"  }

@@ -3,25 +3,25 @@
 
 #include <core/x-platform/scene.h>
 #include <core/components/text.h>
+#include "entertainer.h"
 
 class Game : public IScene
 {
 public:
     Game();
 
-    Text *moodText;
-    Text *entertainerText;
-    Text *text1;
-    Text *text2;
-    Text *text3;
+    Entertainer* entertainer;
+    Text* moodText;
     ITime *timer;
     bool isEntertainerPresent;
 
-    Text *selector;
-    Sprite *entertainer;
+    Text* selector;
     int option;
     bool isGameOver;
     float clowndance;
+
+    Text* text1;
+    Text* text2;
 
     void Init();
     void Update();
