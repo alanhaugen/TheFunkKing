@@ -8,6 +8,8 @@ public class Entertainer : MonoBehaviour
     public string name = "Big Money Man";
     public int skill = 50;
     public string style = "Joker";
+    public GameObject profileBoothRoomAppearance;
+    public GameObject sideKingRoomAppearance;
 
     // Start is called before the first frame update
     void Start()
