@@ -7,4 +7,9 @@ public class OnMouseDownExample : MonoBehaviour
     {
         print(name);
     }
+
+    void Start()
+    {
+        print(name);
+    }
 }
