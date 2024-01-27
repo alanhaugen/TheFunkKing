@@ -13,7 +13,7 @@ public class JoyBar : MonoBehaviour
         slider.value= joy;
     }
 
-    public void SetHappyness(int joy)
+    public void SetJoy(int joy)
     {
         slider.value = joy;
     }
