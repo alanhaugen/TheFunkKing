@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     public KingMoodScript kingMood; 
     private void Start()
     {
+        PlayerPrefs.SetInt("entertainerID", 0);
         kingMood.ClearHappinessNumber();
     }
     public void PlayGame()
