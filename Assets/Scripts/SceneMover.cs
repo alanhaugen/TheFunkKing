@@ -11,7 +11,7 @@ public class SceneMover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _kingMoodScript = GetComponent<KingMoodScript>();
+        _kingMoodScript = gameObject.GetComponent<KingMoodScript>();
         currentScene = SceneManager.GetActiveScene().name;
     }
 
@@ -21,10 +21,11 @@ public class SceneMover : MonoBehaviour
         
     }
 
-    private void BackAndForth()
+    public void BackAndForth()
     {
         if ( currentScene == ("EiriksTestScene"))
         {
+            _kingMoodScript.SaveHappinessNumber();
             SceneManager.LoadScene("ThroneRoom");
         }
         else
