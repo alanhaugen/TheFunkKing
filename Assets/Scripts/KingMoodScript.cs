@@ -13,13 +13,13 @@ public class KingMoodScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        kingsHappText.SetText(kingsHappiness.ToString());
+        LoadHappinessNumber();
     }
 
     // Update is called once per frame
     void Update()
     {
-      
+        kingsHappText.SetText(kingsHappiness.ToString());
     }
 
     public void HappinessUp()

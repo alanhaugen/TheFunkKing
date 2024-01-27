@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EiriksTestScene.unity
     guid: a2b5497e5f22de9428433f9d985f9c86
+  - enabled: 1
+    path: Assets/Scenes/ThroneRoom.unity
+    guid: 0666e126232f9c04a94ccf40066fd24d
   m_configObjects: {}
