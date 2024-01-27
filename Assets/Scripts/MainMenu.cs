@@ -6,13 +6,6 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-
-    [SerializeField] Slider volumeSlider;
-
-    public void ChangeVolume()
-    {
-        AudioListener.volume = volumeSlider.value;
-    }
  public void PlayGame()
     {
         SceneManager.LoadScene(1);
