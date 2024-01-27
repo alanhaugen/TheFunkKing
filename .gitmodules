@@ -1,0 +1,3 @@
+[submodule "solid"]
+	path = solid
+	url = https://github.com/alanhaugen/solid.git

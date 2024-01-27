@@ -72,7 +72,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Solid engine ignores
-bin
 build
-data
 intermediate
+*.swp
