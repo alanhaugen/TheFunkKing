@@ -2,6 +2,8 @@
 
 Entertainer::Entertainer()
 {
+    tag = "Entertainer";
+
     appearance = new Sprite("data/entertainer.png", 600.0f, 100.0f, 0.3f, 0.3f);
     description = "A standard clown";
     name = "Clownie";

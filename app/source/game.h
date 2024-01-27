@@ -10,6 +10,8 @@ class Game : public IScene
 public:
     Game();
 
+    int mood;
+
     Entertainer* entertainer;
     Text* moodText;
     ITime *timer;

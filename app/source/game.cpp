@@ -17,10 +17,14 @@ void Game::Init()
                               0.8f,
                               0.8f));
 
-    moodText = new Text("THE KINGS MOOD: 100", 200, 50);
+    mood = 100;
+
+    moodText = new Text(String("THE KINGS MOOD: ") + String(mood), 200, 50);
     components.Add(moodText);
 
     selector = new Text(">", 700 - 30, 300);
+    selector->Hide();
+    components.Add(selector);
 
     text1 = new Text("ACCEPT", 700, 300);
     text2 = new Text("REJECT", 700, 400);
@@ -36,24 +40,35 @@ void Game::Init()
 
     option = 1;
     isGameOver = false;
+
+    entertainer = NULL;
 };
 
 void Game::Update()
 {
     if (timer->TimeSinceStarted() > 2000 && isEntertainerPresent == false)
     {
+        if (entertainer != NULL)
+        {
+            entertainer->Hide();
+        }
+
         entertainer = new Entertainer();
         components.Add(entertainer);
-        components.Add(selector);
+
+        isGameOver = false;
+        selector->Show();
 
         text1->Show();
         text2->Show();
 
         isEntertainerPresent = true;
 
+        mood -= 25;
+
         //delete moodText;
         moodText->Hide();
-        moodText = new Text("THE KINGS MOOD: 50", 200, 50);
+        moodText = new Text(String("THE KINGS MOOD: ") + String(mood), 200, 50);
         components.Add(moodText);
     }
 
@@ -81,18 +96,24 @@ void Game::Update()
         if (option == 1)
         {
             moodText->Hide();
-            moodText = new Text("THE KINGS MOOD: 100", 200, 50);
+
+            mood += 25;
+
+            moodText = new Text(String("THE KINGS MOOD: ") + String(mood), 200, 50);
             components.Add(moodText);
         }
         else if (option == 2)
         {
             moodText->Hide();
             entertainer->Hide();
-            moodText = new Text("THE KINGS MOOD: 0", 200, 50);
+            moodText = new Text(String("THE KINGS MOOD: ") + String(mood), 200, 50);
             components.Add(moodText);
         }
 
         isGameOver = true;
+
+        timer->Reset();
+        isEntertainerPresent = false;
 
         text1->Hide();
         text2->Hide();
