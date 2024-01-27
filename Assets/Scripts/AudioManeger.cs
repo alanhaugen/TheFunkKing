@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class AudioManeger : MonoBehaviour
 {
+    [SerializeField] Slider volumeSlider;
     [Header("----------- Audio Source -----------")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
@@ -12,9 +13,30 @@ public class AudioManeger : MonoBehaviour
     [Header("----------- Audio Clip -------------")]
     public AudioClip background;
 
-    private void Start()
+    void Start()
     {
         musicSource.clip = background;
         musicSource.Play();
+
+        if (!PlayerPrefs.HasKey("musicVolume"))
+        {
+            PlayerPrefs.SetFloat("musicVolume", 1);
+            Load();
+        }
+    }
+
+    public void ChangeVolume()
+    {
+        AudioListener.volume= volumeSlider.value;
+        Save();
+    }
+    private void Load()
+    {
+        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
+    }
+
+    private void Save()
+    {
+        PlayerPrefs.SetFloat("musicVolume",volumeSlider.value);
     }
 }
