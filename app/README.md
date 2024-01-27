@@ -1,5 +1,7 @@
 # The King's Mood
 
+## Description
+
 King has gone through a tragedy. He is in a funk. Cheer him up!
 
 You decide who gets to entertain the king.
@@ -12,7 +14,7 @@ Bring the kingdom out of mourning
 
 ## Instructions for use of the QtCreator (Download from qt.io) qbs build system
 
-Open chess.qbs with QtCreator
+Open thekingsmood.qbs with QtCreator
 
 Change the run working directory to the following:
 
