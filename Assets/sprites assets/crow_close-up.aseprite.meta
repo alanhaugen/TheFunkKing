@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01d309c099f384b49bbe35c0e39e15ce
+guid: 9e6dc3ea76dc26247aef5693deb1a0d6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,58 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: king 160_Frame_0
+  - name: crow_close-up
     originalName: 
-    pivot: {x: 0.35135135, y: -0.0066225166}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 123
-      y: 4
-      width: 111
-      height: 151
-    spriteID: d28d7e7723d8e364cb0420e3c357371e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 123, y: 4}
-  - name: king 160_Frame_1
-    originalName: 
-    pivot: {x: 0.35135135, y: -0.0064935065}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 167
-      width: 111
-      height: 154
-    spriteID: c97f9db7a9f96ec44aba1afd5af0fed3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 167}
-  - name: king 160_Frame_2
-    originalName: 
-    pivot: {x: 0.35135135, y: -0.006451613}
+    pivot: {x: 0.47368422, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 111
-      height: 155
-    spriteID: 8bf87a9fd386ecf44a05605ab6ed8754
+      width: 57
+      height: 63
+    spriteID: 7dbed7ce51139aa46a78a9f69d6d4c97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,71 +141,27 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: king 160_Frame_3
-    originalName: 
-    pivot: {x: 0.35135135, y: -0.0064935065}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 329
-      width: 111
-      height: 154
-    spriteID: 18d2737aa01878f45a2d02acab0ab6d7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 329}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 715504776
-    name: king 160
+    guid: -785841664
+    name: crow_close-up
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: king 160_Frame_0
+    - name: crow_close-up
       frameIndex: 0
       cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 151
-      spriteId: d28d7e7723d8e364cb0420e3c357371e
-    - name: king 160_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 154
-      spriteId: c97f9db7a9f96ec44aba1afd5af0fed3
-    - name: king 160_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 155
-      spriteId: 8bf87a9fd386ecf44a05605ab6ed8754
-    - name: king 160_Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 154
-      spriteId: 18d2737aa01878f45a2d02acab0ab6d7
+        x: 5
+        y: 0
+        width: 57
+        height: 63
+      spriteId: 7dbed7ce51139aa46a78a9f69d6d4c97
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 160, y: 160}
+  canvasSize: {x: 64, y: 64}
