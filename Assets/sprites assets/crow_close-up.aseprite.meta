@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc31ef7596a42834493281c398fedc4b
+guid: 9e6dc3ea76dc26247aef5693deb1a0d6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: 'shark '
+  - name: crow_close-up
     originalName: 
-    pivot: {x: 0.45833334, y: -0.039215688}
+    pivot: {x: 0.47368422, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 36
-      height: 51
-    spriteID: f2f886085f0750d41aff8324074d18b1
+      width: 57
+      height: 63
+    spriteID: 7dbed7ce51139aa46a78a9f69d6d4c97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1074759221
-    name: 'shark '
+    guid: -785841664
+    name: crow_close-up
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: 'shark '
+    - name: crow_close-up
       frameIndex: 0
       cellRect:
-        x: 3
-        y: 2
-        width: 36
-        height: 51
-      spriteId: f2f886085f0750d41aff8324074d18b1
+        x: 5
+        y: 0
+        width: 57
+        height: 63
+      spriteId: 7dbed7ce51139aa46a78a9f69d6d4c97
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 39, y: 64}
+  canvasSize: {x: 64, y: 64}
