@@ -11,12 +11,14 @@ public class Entertainer : MonoBehaviour
     public string style = "Joker";
     public GameObject profileBoothRoomAppearance;
     public GameObject sideKingRoomAppearance;
-    private TextMeshPro textMeshPro;
+    private GameObject canvas;
+    public TMP_Text textMeshPro;
 
     // Start is called before the first frame update
     void Start()
     {
-        textMeshPro = profileBoothRoomAppearance.GetComponent<TextMeshPro>();
+        //canvas = GameObject.Find("Canvas");
+        //textMeshPro = canvas.GetComponent<TextMeshPro>();
         textMeshPro.text = resume;
     }
 
