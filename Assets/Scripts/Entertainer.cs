@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Entertainer : MonoBehaviour
 {
@@ -10,11 +11,13 @@ public class Entertainer : MonoBehaviour
     public string style = "Joker";
     public GameObject profileBoothRoomAppearance;
     public GameObject sideKingRoomAppearance;
+    private TextMeshPro textMeshPro;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        textMeshPro = profileBoothRoomAppearance.GetComponent<TextMeshPro>();
+        textMeshPro.text = resume;
     }
 
     // Update is called once per frame
