@@ -31,5 +31,10 @@ public class KingMoodScript : MonoBehaviour
     {
         kingsHappiness--;
     }
+
+    public void SaveHappinessNumber()
+    {
+        PlayerPrefs.SetInt("kingsHappyValue", kingsHappiness);
+    }
     
 }
