@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EiriksTestScene.unity
     guid: a2b5497e5f22de9428433f9d985f9c86
+  - enabled: 1
+    path: Assets/Scenes/Options Menu.unity
+    guid: 6fdf9bfb8b7156848807cc406c1f9725
   m_configObjects: {}
