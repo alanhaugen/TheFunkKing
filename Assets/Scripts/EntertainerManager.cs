@@ -17,7 +17,10 @@ public class EntertainerManager : MonoBehaviour
     private Camera cam;
     public TMP_Text text;
     private SceneMover _sceneMover;
-    
+
+    public EntertainerManager entertainmentManager;
+    public KingMoodScript _KingMoodScript;
+
     void Start()
     {
         _sceneMover = GameObject.Find("Script Manager").GetComponent<SceneMover>();
@@ -57,6 +60,17 @@ public class EntertainerManager : MonoBehaviour
             {
                 chosenEntertainerSprite = currentEntertainer.GetComponentInChildren<SpriteRenderer>().sprite;
                 chosenEntertainerID = currentEntertainer.GetComponent<Entertainer>().entertainerId;
+                _KingMoodScript.currentJoy += (entertainmentManager.currentEntertainer.GetComponent<Entertainer>().skill) / 50;
+
+                if (_KingMoodScript.currentJoy < 0)
+                {
+                    _KingMoodScript.currentJoy = 0;
+                }
+                if (_KingMoodScript.currentJoy > 10)
+                {
+                    SceneManager.LoadScene("Gameover");
+                }
+
                 _sceneMover.BackAndForth();
             }
             else if (hit.collider.CompareTag("No"))
