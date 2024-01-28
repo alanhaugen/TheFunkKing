@@ -49,7 +49,7 @@ MonoBehaviour:
   resume: '*Bubbles* GURRGGGG I''ll show something magic... GURGGGL A see GRGL in
     self'
   name: Slime
-  entertainerId: 7
+  entertainerId: 2
   skill: 50
   style: Joker
   profileBoothRoomAppearance: {fileID: 6246406320942088625}

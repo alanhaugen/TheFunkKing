@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resume: My humour is explosive, almost to die for :)
   name: Nodyn. A. Mite
-  entertainerId: 0
+  entertainerId: 3
   skill: -500
   style: Terrorist
   profileBoothRoomAppearance: {fileID: 6444598821132154692}

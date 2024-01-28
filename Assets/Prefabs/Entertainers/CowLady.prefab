@@ -49,7 +49,7 @@ MonoBehaviour:
   resume: I'm a professional farmer and milk producer. I'll show the king something
     he won't forget, and teach him about my industry right from the source
   name: berta
-  entertainerId: 0
+  entertainerId: 4
   skill: 20
   style: Joker
   profileBoothRoomAppearance: {fileID: -2253911629886400664, guid: 98916518390b69348a9d89430a8c12fa, type: 3}

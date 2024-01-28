@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resume: I am a court jester!
   name: Crow
+  entertainerId: 3
   skill: -50
   style: Joker
   profileBoothRoomAppearance: {fileID: 4991834664884488011}
