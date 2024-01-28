@@ -46,12 +46,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d991145c54cc01e4aa11f6b06e3e047e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resume: I can juggle!
+  resume: I can juggle I'm a professional juggler, I juggle, trust. I'm talented,
+    I won't cry
   name: Clown Cat
+  entertainerId: 0
   skill: 100
   style: Juggler
   profileBoothRoomAppearance: {fileID: 724301842750822459}
   sideKingRoomAppearance: {fileID: 2650992914176086805}
+  textMeshPro: {fileID: 0}
 --- !u!1001 &4932082963714458749
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d991145c54cc01e4aa11f6b06e3e047e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resume: '*Bubbles* *Gurgles*'
+  resume: '*Bubbles* GURRGGGG I''ll show something magic... GURGGGL A see GRGL in
+    self'
   name: Slime
   entertainerId: 7
   skill: 50
