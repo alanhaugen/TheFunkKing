@@ -1100,6 +1100,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 28022353227945039, guid: 109dc894636c5b94d81628c98219142e, type: 3}
+      propertyPath: joyBar
+      value: 
+      objectReference: {fileID: 755310025000025617}
+    - target: {fileID: 28022353227945039, guid: 109dc894636c5b94d81628c98219142e, type: 3}
       propertyPath: kingsHappText
       value: 
       objectReference: {fileID: 1057620115}
@@ -1212,6 +1216,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 459414298}
+    - target: {fileID: 3676182452499466506, guid: d381945c456c0ac4babcbbda755a6b35, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6978604946818310727, guid: d381945c456c0ac4babcbbda755a6b35, type: 3}
       propertyPath: m_text
       value: Press A To accept, D to deny
@@ -1257,6 +1265,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8892338682226198595, guid: d381945c456c0ac4babcbbda755a6b35, type: 3}
   m_PrefabInstance: {fileID: 755310025000025615}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &755310025000025617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6638942948395716649, guid: d381945c456c0ac4babcbbda755a6b35, type: 3}
+  m_PrefabInstance: {fileID: 755310025000025615}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00adf5fb66c66b54c9788695022426c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6689677261887304446
 PrefabInstance:
   m_ObjectHideFlags: 0

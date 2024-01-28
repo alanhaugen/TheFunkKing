@@ -11,7 +11,8 @@ public class KingMoodScript : MonoBehaviour
     public TMP_Text kingsHappText;
 
     //Glenn code start
-    public int minJoy = 0;
+    public JoyBar joyB;
+    public int minJoy;
     public int currentJoy;
     public JoyBar joyBar;
     //Glenn code stop
@@ -22,8 +23,8 @@ public class KingMoodScript : MonoBehaviour
         LoadHappinessNumber();
 
         //Glenn code start
-        currentJoy = minJoy;
-        joyBar.SetMinJoy(minJoy);
+        //currentJoy = minJoy;
+        //joyBar.SetMinJoy(minJoy);
         //Glenn code stop
     }
 
@@ -38,6 +39,8 @@ public class KingMoodScript : MonoBehaviour
             GetJoy(1);
         }
         //Glenn code stop
+        joyBar.SetJoy(currentJoy);
+
     }
 
     //Glenn code start
@@ -63,15 +66,18 @@ public class KingMoodScript : MonoBehaviour
     public void SaveHappinessNumber()
     {
         PlayerPrefs.SetInt("kingsHappyValue", kingsHappiness);
+        PlayerPrefs.SetInt("Joy", currentJoy);
     }
     
     public void LoadHappinessNumber()
     {
         kingsHappiness = PlayerPrefs.GetInt("kingsHappyValue");
+        currentJoy = PlayerPrefs.GetInt("Joy");
     }
     
     public void ClearHappinessNumber()
     {
         PlayerPrefs.SetInt("kingsHappyValue", 0);
+        PlayerPrefs.SetInt("Joy", 0);
     }
 }

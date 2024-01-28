@@ -6,11 +6,19 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    public int minJoy = 0;
+    public int currentJoy;
+    public JoyBar joyBar;
     public KingMoodScript kingMood; 
     private void Start()
     {
         PlayerPrefs.SetInt("entertainerID", 0);
         kingMood.ClearHappinessNumber();
+
+
+        currentJoy = minJoy;
+        joyBar.SetMinJoy(minJoy);
+
     }
     public void PlayGame()
     {
