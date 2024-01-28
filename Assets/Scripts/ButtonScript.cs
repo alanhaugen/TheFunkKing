@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ButtonScript : MonoBehaviour
 {
-    public Text text;
+
     public SceneMover _sceneMover;
     public int entertainerID;
     
@@ -18,7 +18,6 @@ public class ButtonScript : MonoBehaviour
     void Start()
     {
         entertainerID = PlayerPrefs.GetInt("entertainerID");
-        text.text = "big booty";
     }
 
     // Update is called once per frame

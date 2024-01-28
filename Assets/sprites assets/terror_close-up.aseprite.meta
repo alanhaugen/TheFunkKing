@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 560f71f176289b841a6655232df54422
+guid: 72ad9fed9001c34459431070a8a427b3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: big money man
+  - name: terror_close-up
     originalName: 
-    pivot: {x: 0.475, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 40
-      height: 62
-    spriteID: b955bd6281b46534c9480aedc4296965
+      width: 64
+      height: 64
+    spriteID: 4abc2c31eed528842953c91d02f3745b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -397222740
-    name: big money man
+    guid: -1045916967
+    name: terror_close-up
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: big money man
+    - name: terror_close-up
       frameIndex: 0
       cellRect:
-        x: 2
+        x: 0
         y: 0
-        width: 40
-        height: 62
-      spriteId: b955bd6281b46534c9480aedc4296965
+        width: 64
+        height: 64
+      spriteId: 4abc2c31eed528842953c91d02f3745b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 42, y: 64}
+  canvasSize: {x: 64, y: 64}

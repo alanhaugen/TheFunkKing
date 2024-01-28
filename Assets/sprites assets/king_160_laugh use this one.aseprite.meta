@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b2e4d354375f6a0458540e8548681c1d
+guid: eb43748653150df428e0922608aa9937
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,38 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: 'shark '
+  - name: king_160_laugh use this one_Frame_0
     originalName: 
-    pivot: {x: 0.45833334, y: -0.039215688}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 184
-      width: 36
-      height: 51
-    spriteID: 1a46f3c3c06b4fe40b0d33e05e8e1a0a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 184}
-  - name: shark _Frame_2
-    originalName: 
-    pivot: {x: 0.45833334, y: -0.01923077}
+    pivot: {x: 0.35135135, y: -0.0067114094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 36
-      height: 52
-    spriteID: d16acef6a333691449951467d52d8aaa
+      width: 111
+      height: 149
+    spriteID: 1026fff241cfc6a458f740de33114633
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,18 +141,58 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: shark _Frame_3
+  - name: king_160_laugh use this one_Frame_1
     originalName: 
-    pivot: {x: 0.45833334, y: -0.039215688}
+    pivot: {x: 0.35135135, y: -0.0067114094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 48
+      x: 4
+      y: 161
+      width: 111
+      height: 149
+    spriteID: 730b86f81a57753468938168e8bbfccd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 161}
+  - name: king_160_laugh use this one_Frame_2
+    originalName: 
+    pivot: {x: 0.35135135, y: -0.0067114094}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 318
+      width: 111
+      height: 149
+    spriteID: 53621699ed1872446b126b9512ac4360
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 318}
+  - name: king_160_laugh use this one_Frame_3
+    originalName: 
+    pivot: {x: 0.3301887, y: -0.007042254}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
       y: 4
-      width: 36
-      height: 51
-    spriteID: 0af14fa5a2f2c6945ba82b69b45459d3
+      width: 106
+      height: 142
+    spriteID: 2fe7546e8c9a937479c265b800f01c21
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,19 +200,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 48, y: 4}
-  - name: shark _Frame_0
+    uvTransform: {x: 123, y: 4}
+  - name: king_160_laugh use this one_Frame_4
     originalName: 
-    pivot: {x: 0.45833334, y: -0.01923077}
+    pivot: {x: 0.33663368, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 64
-      width: 36
-      height: 52
-    spriteID: a06ffa35139606f449d15463538f6190
+      x: 123
+      y: 301
+      width: 101
+      height: 137
+    spriteID: 06cb8a1441ce48144bf07056e0c8b32e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,19 +220,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 64}
-  - name: shark _Frame_4
+    uvTransform: {x: 123, y: 301}
+  - name: king_160_laugh use this one_Frame_5
     originalName: 
-    pivot: {x: 0.45833334, y: -0.01923077}
+    pivot: {x: 0.33663368, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 124
-      width: 36
-      height: 52
-    spriteID: 3803f02740bee084baedd249ad4dd2c6
+      x: 123
+      y: 154
+      width: 101
+      height: 139
+    spriteID: 4bd7f0e2d8ddd49409c438a698c5b7bb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,60 +240,68 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 124}
+    uvTransform: {x: 123, y: 154}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1074759221
-    name: 'shark '
+    guid: -1985387550
+    name: king_160_laugh use this one
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: shark _Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 3
-        y: 2
-        width: 36
-        height: 51
-      spriteId: 1a46f3c3c06b4fe40b0d33e05e8e1a0a
-    - name: shark _Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 3
-        y: 1
-        width: 36
-        height: 52
-      spriteId: d16acef6a333691449951467d52d8aaa
-    - name: shark _Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 3
-        y: 2
-        width: 36
-        height: 51
-      spriteId: 0af14fa5a2f2c6945ba82b69b45459d3
-    - name: shark _Frame_0
+    - name: king_160_laugh use this one_Frame_0
       frameIndex: 0
       cellRect:
-        x: 3
+        x: 41
         y: 1
-        width: 36
-        height: 52
-      spriteId: a06ffa35139606f449d15463538f6190
-    - name: shark _Frame_4
+        width: 111
+        height: 149
+      spriteId: 1026fff241cfc6a458f740de33114633
+    - name: king_160_laugh use this one_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 41
+        y: 1
+        width: 111
+        height: 149
+      spriteId: 730b86f81a57753468938168e8bbfccd
+    - name: king_160_laugh use this one_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 41
+        y: 1
+        width: 111
+        height: 149
+      spriteId: 53621699ed1872446b126b9512ac4360
+    - name: king_160_laugh use this one_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 45
+        y: 1
+        width: 106
+        height: 142
+      spriteId: 2fe7546e8c9a937479c265b800f01c21
+    - name: king_160_laugh use this one_Frame_4
       frameIndex: 4
       cellRect:
-        x: 3
-        y: 1
-        width: 36
-        height: 52
-      spriteId: 3803f02740bee084baedd249ad4dd2c6
+        x: 46
+        y: 0
+        width: 101
+        height: 137
+      spriteId: 06cb8a1441ce48144bf07056e0c8b32e
+    - name: king_160_laugh use this one_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 46
+        y: 0
+        width: 101
+        height: 139
+      spriteId: 4bd7f0e2d8ddd49409c438a698c5b7bb
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 39, y: 64}
+  canvasSize: {x: 160, y: 160}
