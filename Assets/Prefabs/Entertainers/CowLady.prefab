@@ -46,8 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d991145c54cc01e4aa11f6b06e3e047e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resume: I am a court jester!
-  name: Cow Lady
+  resume: I'm a professional farmer and milk producer. I'll show the king something
+    he won't forget, and teach him about my industry right from the source
+  name: berta
   entertainerId: 0
   skill: 20
   style: Joker
