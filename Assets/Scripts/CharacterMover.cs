@@ -7,9 +7,13 @@ using UnityEngine;
 public class CharacterMover : MonoBehaviour
 {
     public int character;
+    private SpriteRenderer _spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer.sprite = EntertainerManager.chosenEntertainerSprite;
+        
         ChooseCharacter();
     }
 
@@ -22,9 +26,9 @@ public class CharacterMover : MonoBehaviour
 
     private void ChooseCharacter()
     {
-        switch (character)
+        switch (EntertainerManager.chosenEntertainerID)
         { 
-            case 1:
+            case 0:
                 ClownCatMoveForward();
             break;
             

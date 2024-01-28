@@ -1,8 +1,18 @@
 fileFormatVersion: 2
-guid: 345c50ae448667a4092419a43948c811
+guid: 7737206ac02e30c4397f5cdf561f926c
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Chuckle
+    second: {fileID: 7400000, guid: 14322840cafa8b34eb3e767130d6c101, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: laugh
+    second: {fileID: 7400000, guid: 590319fc31900fc42a677d2e37afb739, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +107,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638420377513429586
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +131,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: king 160 flusterd_Frame_0
+  - name: king_160_laugh use this one_Frame_0
     originalName: 
     pivot: {x: 0.35135135, y: -0.0067114094}
     alignment: 9
@@ -132,7 +142,7 @@ ScriptedImporter:
       y: 4
       width: 111
       height: 149
-    spriteID: a82b28af517d7c747a578d57e64b75ab
+    spriteID: 34cd04f9f1351c043a281ae5ed1c1cf7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +151,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: king 160 flusterd_Frame_1
+  - name: king_160_laugh use this one_Frame_1
     originalName: 
     pivot: {x: 0.35135135, y: -0.0067114094}
     alignment: 9
@@ -152,7 +162,7 @@ ScriptedImporter:
       y: 161
       width: 111
       height: 149
-    spriteID: d094b0e1d7a549f46a9e29c99852d6bb
+    spriteID: b67797c269f066b43ba77db9a811bde2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +171,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 161}
-  - name: king 160 flusterd_Frame_2
+  - name: king_160_laugh use this one_Frame_2
     originalName: 
     pivot: {x: 0.35135135, y: -0.0067114094}
     alignment: 9
@@ -172,7 +182,7 @@ ScriptedImporter:
       y: 318
       width: 111
       height: 149
-    spriteID: 8df42ae75da94064ebcd2402d72a63b1
+    spriteID: b6239da0f4a075941b5b09eb3bf46a14
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,18 +191,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 318}
-  - name: king 160 flusterd_Frame_3
+  - name: king_160_laugh use this one_Frame_3
     originalName: 
-    pivot: {x: 0.35135135, y: -0.0067114094}
+    pivot: {x: 0.3301887, y: -0.007042254}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 123
       y: 4
-      width: 111
-      height: 149
-    spriteID: 65f805d453f4cc143a9b05075cbfb74d
+      width: 106
+      height: 142
+    spriteID: 65a9d8078aef3d04e817fca5c91fe39e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,18 +211,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 123, y: 4}
-  - name: king 160 flusterd_Frame_4
+  - name: king_160_laugh use this one_Frame_4
     originalName: 
-    pivot: {x: 0.35135135, y: -0.0067114094}
+    pivot: {x: 0.33663368, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 123
-      y: 161
-      width: 111
-      height: 149
-    spriteID: 4310cacfcdf3bde4faeaeeca2e19bd52
+      y: 301
+      width: 101
+      height: 137
+    spriteID: c34a6544a97f39b4e984cd869a744cb4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,19 +230,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 161}
-  - name: king 160 flusterd_Frame_5
+    uvTransform: {x: 123, y: 301}
+  - name: king_160_laugh use this one_Frame_5
     originalName: 
-    pivot: {x: 0.35135135, y: -0.0067114094}
+    pivot: {x: 0.33663368, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 123
-      y: 318
-      width: 111
-      height: 149
-    spriteID: 16bdd8accd63a314c841e9d4d2e9b431
+      y: 154
+      width: 101
+      height: 139
+    spriteID: 3734c73c3396a614295c1f28fe81f5df
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,151 +250,103 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 123, y: 318}
-  - name: king 160 flusterd_Frame_6
-    originalName: 
-    pivot: {x: 0.35135135, y: -0.0067114094}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 4
-      width: 111
-      height: 149
-    spriteID: 61613f62313b31c4aad6a6c7ba4626e2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 4}
-  - name: king 160 flusterd_Frame_7
-    originalName: 
-    pivot: {x: 0.35135135, y: -0.0067114094}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 161
-      width: 111
-      height: 149
-    spriteID: a8c5560aa606778499bcaefe4a0733e6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 161}
-  - name: king 160 flusterd_Frame_8
-    originalName: 
-    pivot: {x: 0.35135135, y: -0.0067114094}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 318
-      width: 111
-      height: 149
-    spriteID: dad4da53ec0792541bd4251609fd79ca
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 318}
+    uvTransform: {x: 123, y: 154}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1487365625
-    name: king 160 flusterd
+    guid: -1985387550
+    name: king_160_laugh use this one
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: king 160 flusterd_Frame_0
+    - name: king_160_laugh use this one_Frame_0
       frameIndex: 0
       cellRect:
         x: 41
         y: 1
         width: 111
         height: 149
-      spriteId: a82b28af517d7c747a578d57e64b75ab
-    - name: king 160 flusterd_Frame_1
+      spriteId: 34cd04f9f1351c043a281ae5ed1c1cf7
+    - name: king_160_laugh use this one_Frame_1
       frameIndex: 1
       cellRect:
         x: 41
         y: 1
         width: 111
         height: 149
-      spriteId: d094b0e1d7a549f46a9e29c99852d6bb
-    - name: king 160 flusterd_Frame_2
+      spriteId: b67797c269f066b43ba77db9a811bde2
+    - name: king_160_laugh use this one_Frame_2
       frameIndex: 2
       cellRect:
         x: 41
         y: 1
         width: 111
         height: 149
-      spriteId: 8df42ae75da94064ebcd2402d72a63b1
-    - name: king 160 flusterd_Frame_3
+      spriteId: b6239da0f4a075941b5b09eb3bf46a14
+    - name: king_160_laugh use this one_Frame_3
       frameIndex: 3
       cellRect:
-        x: 41
+        x: 45
         y: 1
-        width: 111
-        height: 149
-      spriteId: 65f805d453f4cc143a9b05075cbfb74d
-    - name: king 160 flusterd_Frame_4
+        width: 106
+        height: 142
+      spriteId: 65a9d8078aef3d04e817fca5c91fe39e
+    - name: king_160_laugh use this one_Frame_4
       frameIndex: 4
       cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 149
-      spriteId: 4310cacfcdf3bde4faeaeeca2e19bd52
-    - name: king 160 flusterd_Frame_5
+        x: 46
+        y: 0
+        width: 101
+        height: 137
+      spriteId: c34a6544a97f39b4e984cd869a744cb4
+    - name: king_160_laugh use this one_Frame_5
       frameIndex: 5
       cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 149
-      spriteId: 16bdd8accd63a314c841e9d4d2e9b431
-    - name: king 160 flusterd_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 149
-      spriteId: 61613f62313b31c4aad6a6c7ba4626e2
-    - name: king 160 flusterd_Frame_7
-      frameIndex: 7
-      cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 149
-      spriteId: a8c5560aa606778499bcaefe4a0733e6
-    - name: king 160 flusterd_Frame_8
-      frameIndex: 8
-      cellRect:
-        x: 41
-        y: 1
-        width: 111
-        height: 149
-      spriteId: dad4da53ec0792541bd4251609fd79ca
+        x: 46
+        y: 0
+        width: 101
+        height: 139
+      spriteId: 3734c73c3396a614295c1f28fe81f5df
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 

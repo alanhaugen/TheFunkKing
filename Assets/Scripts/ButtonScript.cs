@@ -33,6 +33,7 @@ public class ButtonScript : MonoBehaviour
         entertainer6.SetActive(false);
 
         entertainerID = PlayerPrefs.GetInt("entertainerID");
+<<<<<<< Updated upstream
 
         switch(entertainerID)
         {
@@ -61,6 +62,9 @@ public class ButtonScript : MonoBehaviour
                 entertainer6.SetActive(true);
                 break;
         }
+=======
+//        text.text = "big booty";
+>>>>>>> Stashed changes
     }
 
     // Update is called once per frame

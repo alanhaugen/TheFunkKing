@@ -14,6 +14,7 @@ public class Entertainer : MonoBehaviour
     public GameObject sideKingRoomAppearance;
     private GameObject canvas;
     public TMP_Text textMeshPro;
+<<<<<<< Updated upstream
 
     // Start is called before the first frame update
     void Start()
@@ -31,4 +32,6 @@ public class Entertainer : MonoBehaviour
     {
         
     }
+=======
+>>>>>>> Stashed changes
 }

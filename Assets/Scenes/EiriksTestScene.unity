@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -548,6 +548,7 @@ Transform:
   - {fileID: 913775970}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &811836184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -618,6 +619,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7700043976741485664, guid: f5a5f24fcca3e0646a0a5d92018fd26d, type: 3}
   m_PrefabInstance: {fileID: 811836184}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &913775966
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +636,7 @@ GameObject:
   - component: {fileID: 913775971}
   m_Layer: 0
   m_Name: Yes Button
-  m_TagString: Untagged
+  m_TagString: Yes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1209,7 +1212,7 @@ GameObject:
   - component: {fileID: 1947168003}
   m_Layer: 0
   m_Name: No Button
-  m_TagString: Untagged
+  m_TagString: No
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1662,6 +1665,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00adf5fb66c66b54c9788695022426c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &5004288034414148930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 154588414913070782, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_Name
+      value: EntertainerManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 972943533}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.070601195
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.89220405
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503559220156924321, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
 --- !u!1001 &6689677261887304446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1732,4 +1796,8 @@ SceneRoots:
   - {fileID: 1552063465}
   - {fileID: 748238502}
   - {fileID: 587638910}
+<<<<<<< Updated upstream
   - {fileID: 1751762923}
+=======
+  - {fileID: 5004288034414148930}
+>>>>>>> Stashed changes
