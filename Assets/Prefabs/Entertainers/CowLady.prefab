@@ -30,8 +30,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7402721274647706788}
   - {fileID: 4061965912991116456}
+  - {fileID: 6362179647283540392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &310927187123524029
@@ -51,10 +51,10 @@ MonoBehaviour:
   entertainerId: 0
   skill: 20
   style: Joker
-  profileBoothRoomAppearance: {fileID: 7734445588764021953}
-  sideKingRoomAppearance: {fileID: 7734445588764021953}
+  profileBoothRoomAppearance: {fileID: -2253911629886400664, guid: 98916518390b69348a9d89430a8c12fa, type: 3}
+  sideKingRoomAppearance: {fileID: 6171895362350586317}
   textMeshPro: {fileID: 0}
---- !u!1001 &859688456943698857
+--- !u!1001 &3827643456888917669
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -65,6 +65,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 13984661f29e53443bde759b55b26725, type: 3}
       propertyPath: m_Name
       value: Cow lady
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 13984661f29e53443bde759b55b26725, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 13984661f29e53443bde759b55b26725, type: 3}
       propertyPath: m_LocalScale.x
@@ -96,15 +100,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 13984661f29e53443bde759b55b26725, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 13984661f29e53443bde759b55b26725, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 13984661f29e53443bde759b55b26725, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 13984661f29e53443bde759b55b26725, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -123,15 +127,15 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 13984661f29e53443bde759b55b26725, type: 3}
---- !u!4 &7402721274647706788 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 13984661f29e53443bde759b55b26725, type: 3}
-  m_PrefabInstance: {fileID: 859688456943698857}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7734445588764021953 stripped
+--- !u!1 &6171895362350586317 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 13984661f29e53443bde759b55b26725, type: 3}
-  m_PrefabInstance: {fileID: 859688456943698857}
+  m_PrefabInstance: {fileID: 3827643456888917669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6362179647283540392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 13984661f29e53443bde759b55b26725, type: 3}
+  m_PrefabInstance: {fileID: 3827643456888917669}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6127857190644274085
 PrefabInstance:
@@ -144,6 +148,22 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 98916518390b69348a9d89430a8c12fa, type: 3}
       propertyPath: m_Name
       value: cow lady_close-up
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 98916518390b69348a9d89430a8c12fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 98916518390b69348a9d89430a8c12fa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 98916518390b69348a9d89430a8c12fa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 98916518390b69348a9d89430a8c12fa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 98916518390b69348a9d89430a8c12fa, type: 3}
       propertyPath: m_LocalPosition.x
