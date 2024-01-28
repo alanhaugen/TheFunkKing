@@ -302,6 +302,17 @@ Transform:
   - {fileID: 1947168002}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &720242910 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+  m_PrefabInstance: {fileID: 5004288034414148930}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b448ce2854ddf44abfb5de745d25ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &748238497
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,6 +769,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1585357135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 28022353227945039, guid: 109dc894636c5b94d81628c98219142e, type: 3}
+  m_PrefabInstance: {fileID: 753981384048154393}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b6bcfd97f33184c8d3e69a60f73345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1816105313
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,7 +899,7 @@ GameObject:
   - component: {fileID: 1947168004}
   m_Layer: 0
   m_Name: No Button
-  m_TagString: No
+  m_TagString: Yes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1264,6 +1286,14 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 972943533}
+    - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: _KingMoodScript
+      value: 
+      objectReference: {fileID: 1585357135}
+    - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: entertainmentManager
+      value: 
+      objectReference: {fileID: 720242910}
     - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
       propertyPath: entertainers.Array.size
       value: 6
