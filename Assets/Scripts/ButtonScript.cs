@@ -17,16 +17,12 @@ public class ButtonScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-
         entertainerID = PlayerPrefs.GetInt("entertainerID");
     }
 
     // Update is called once per frame
     void Update()
     {
-
-
         if (Input.GetKeyDown("a") /*&& _sceneMover.currentScene == "EiriksTestScene"*/)
         {
             PlayerPrefs.SetInt("entertainerID", entertainerID);
