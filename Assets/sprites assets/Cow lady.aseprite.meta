@@ -123,13 +123,13 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Cow lady
     originalName: 
-    pivot: {x: 0.48648646, y: 0}
+    pivot: {x: 0.2972973, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
+      x: 62
+      y: 362
       width: 37
       height: 63
     spriteID: e614a42bad0e25b4e94cc8dd0706c5ac
@@ -140,7 +140,247 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
+    uvTransform: {x: 62, y: 362}
+  - name: Cow lady_Frame_1
+    originalName: 
+    pivot: {x: 0.2972973, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 146
+      width: 37
+      height: 64
+    spriteID: 8d0c9e4fc29f6c44aaa89b9b3a523849
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 146}
+  - name: Cow lady_Frame_2
+    originalName: 
+    pivot: {x: 0.2972973, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 73
+      width: 37
+      height: 65
+    spriteID: d6413737850ae4d4cb3ef9b720282f58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 73}
+  - name: Cow lady_Frame_3
+    originalName: 
+    pivot: {x: 0.2972973, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 218
+      width: 37
+      height: 64
+    spriteID: cae049c7da7315f41b9d3c916831e723
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 218}
+  - name: Cow lady_Frame_4
+    originalName: 
+    pivot: {x: 0.39534885, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 278
+      width: 43
+      height: 65
+    spriteID: 382c5a6b41ffcbc4ea84dc27e379c21b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 278}
+  - name: Cow lady_Frame_5
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 418
+      width: 50
+      height: 54
+    spriteID: 31755e6a9913d254eb55f7c0ed16065d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 418}
+  - name: Cow lady_Frame_6
+    originalName: 
+    pivot: {x: 0.40909094, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 4
+      width: 44
+      height: 61
+    spriteID: 077b696ca54e3284297b05323b492644
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 4}
+  - name: Cow lady_Frame_7
+    originalName: 
+    pivot: {x: 0.4468085, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 47
+      height: 62
+    spriteID: f02020f7e04a5ee4381b24c4ed455c0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 71}
+  - name: Cow lady_Frame_8
+    originalName: 
+    pivot: {x: 0.36956522, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 351
+      width: 46
+      height: 59
+    spriteID: 547f96e5b3091e549bef4c3cc295cc53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 351}
+  - name: Cow lady_Frame_9
+    originalName: 
+    pivot: {x: 0.42, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 50
+      height: 59
+    spriteID: 6cbef70d1f8f67a4a8391d4b4793690f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Cow lady_Frame_10
+    originalName: 
+    pivot: {x: 0.4375, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 211
+      width: 48
+      height: 59
+    spriteID: 58b8ae6bd3641974dadf0c06a14a2c34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 211}
+  - name: Cow lady_Frame_11
+    originalName: 
+    pivot: {x: 0.4130435, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 141
+      width: 46
+      height: 62
+    spriteID: e8767541bd3049346b8aa262b093afbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 141}
+  - name: Cow lady_Frame_12
+    originalName: 
+    pivot: {x: 0.2972973, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 290
+      width: 37
+      height: 64
+    spriteID: beee5b4c13a2c7a46b5c5dc8d71b79a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 290}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -150,14 +390,110 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Cow lady
+    - name: Cow lady_Frame_0
       frameIndex: 0
       cellRect:
-        x: 6
+        x: 21
         y: 0
         width: 37
         height: 63
       spriteId: e614a42bad0e25b4e94cc8dd0706c5ac
+    - name: Cow lady_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 21
+        y: 0
+        width: 37
+        height: 64
+      spriteId: 8d0c9e4fc29f6c44aaa89b9b3a523849
+    - name: Cow lady_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 21
+        y: 0
+        width: 37
+        height: 65
+      spriteId: d6413737850ae4d4cb3ef9b720282f58
+    - name: Cow lady_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 21
+        y: 0
+        width: 37
+        height: 64
+      spriteId: cae049c7da7315f41b9d3c916831e723
+    - name: Cow lady_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 15
+        y: 0
+        width: 43
+        height: 65
+      spriteId: 382c5a6b41ffcbc4ea84dc27e379c21b
+    - name: Cow lady_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 8
+        y: 0
+        width: 50
+        height: 54
+      spriteId: 31755e6a9913d254eb55f7c0ed16065d
+    - name: Cow lady_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 14
+        y: 0
+        width: 44
+        height: 61
+      spriteId: 077b696ca54e3284297b05323b492644
+    - name: Cow lady_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 0
+        width: 47
+        height: 62
+      spriteId: f02020f7e04a5ee4381b24c4ed455c0f
+    - name: Cow lady_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 15
+        y: 0
+        width: 46
+        height: 59
+      spriteId: 547f96e5b3091e549bef4c3cc295cc53
+    - name: Cow lady_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 0
+        width: 50
+        height: 59
+      spriteId: 6cbef70d1f8f67a4a8391d4b4793690f
+    - name: Cow lady_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 0
+        width: 48
+        height: 59
+      spriteId: 58b8ae6bd3641974dadf0c06a14a2c34
+    - name: Cow lady_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 13
+        y: 0
+        width: 46
+        height: 62
+      spriteId: e8767541bd3049346b8aa262b093afbe
+    - name: Cow lady_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 21
+        y: 0
+        width: 37
+        height: 64
+      spriteId: beee5b4c13a2c7a46b5c5dc8d71b79a1
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -200,4 +536,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 48, y: 64}
+  canvasSize: {x: 64, y: 80}
