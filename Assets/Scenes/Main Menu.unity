@@ -1199,6 +1199,7 @@ MonoBehaviour:
   currentJoy: 0
   joyBar: {fileID: 0}
   kingMood: {fileID: 0}
+  _audioManager: {fileID: 0}
 --- !u!1 &558255845
 GameObject:
   m_ObjectHideFlags: 0
@@ -2120,6 +2121,7 @@ MonoBehaviour:
   musicSource: {fileID: 563081844}
   SFXSource: {fileID: 497602158}
   background: {fileID: 8300000, guid: 3a86c239d1ecfeb4295b12aadc8e2657, type: 3}
+  mainMenu: {fileID: 8300000, guid: 76294edf1995c6e45aa5ec158e3ae61e, type: 3}
 --- !u!4 &861570547
 Transform:
   m_ObjectHideFlags: 0
@@ -3015,6 +3017,7 @@ MonoBehaviour:
   currentJoy: 0
   joyBar: {fileID: 0}
   kingMood: {fileID: 0}
+  _audioManager: {fileID: 0}
 --- !u!1 &1322616023
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,6 +4256,7 @@ MonoBehaviour:
   currentJoy: 0
   joyBar: {fileID: 0}
   kingMood: {fileID: 1725867151}
+  _audioManager: {fileID: 861570546}
 --- !u!1 &1802365391
 GameObject:
   m_ObjectHideFlags: 0
@@ -4372,6 +4376,7 @@ MonoBehaviour:
   musicSource: {fileID: 0}
   SFXSource: {fileID: 0}
   background: {fileID: 0}
+  mainMenu: {fileID: 0}
 --- !u!4 &1899417117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}

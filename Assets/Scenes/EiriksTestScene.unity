@@ -1266,8 +1266,20 @@ PrefabInstance:
       objectReference: {fileID: 972943533}
     - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
       propertyPath: entertainers.Array.size
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: entertainers.Array.data[3]
+      value: 
+      objectReference: {fileID: 1233001645594014311, guid: f563623faf7dd7c41ae484a4ca69b964, type: 3}
+    - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: entertainers.Array.data[4]
+      value: 
+      objectReference: {fileID: 5786777329360505462, guid: f8232557d2e86864c8f5ccadde972767, type: 3}
+    - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
+      propertyPath: entertainers.Array.data[5]
+      value: 
+      objectReference: {fileID: 4318333830275690243, guid: fc03e703dbfe6a64aa6ec30f9aa83dd5, type: 3}
     - target: {fileID: 4095999063492240864, guid: 1d239fde1232fca4196d2f5ba9960cd2, type: 3}
       propertyPath: entertainers.Array.data[6]
       value: 
