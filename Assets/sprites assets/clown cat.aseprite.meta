@@ -128,8 +128,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
+      x: 47
+      y: 169
       width: 30
       height: 52
     spriteID: 0c2182d58ca68e148ac99dbc8787dd28
@@ -140,7 +140,347 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
+    uvTransform: {x: 47, y: 169}
+  - name: clown cat_Frame_1
+    originalName: 
+    pivot: {x: 0.5405405, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 4
+      width: 37
+      height: 55
+    spriteID: 15f0fc7ed21a2c14f8a3b0a909077ba4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 4}
+  - name: clown cat_Frame_2
+    originalName: 
+    pivot: {x: 0.5833334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 311
+      width: 36
+      height: 52
+    spriteID: ee147121c4fe98d4c8fb2a3a18460913
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 311}
+  - name: clown cat_Frame_3
+    originalName: 
+    pivot: {x: 0.53125, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 432
+      width: 32
+      height: 52
+    spriteID: 9977bfe3a6d7ff24098a62dfea0a31d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 432}
+  - name: clown cat_Frame_4
+    originalName: 
+    pivot: {x: 0.5405405, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 67
+      width: 37
+      height: 55
+    spriteID: cee3ea8e9977630488154d2ba4475706
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 67}
+  - name: clown cat_Frame_5
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 371
+      width: 35
+      height: 53
+    spriteID: 798d62bfe4db4f743908f68e56110def
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 371}
+  - name: clown cat_Frame_6
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 425
+      width: 35
+      height: 65
+    spriteID: 4a4a7710460a75240ab3b675caf1143d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 425}
+  - name: clown cat_Frame_7
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 35
+      height: 77
+    spriteID: 09c298153b77807438a4011d1a0faefa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: clown cat_Frame_8
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 35
+      height: 79
+    spriteID: 4d144a5a14291b7468299f4532017d09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: clown cat_Frame_9
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 176
+      width: 35
+      height: 76
+    spriteID: 64fee6b7163816a408d7e39f7c7397bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 176}
+  - name: clown cat_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 341
+      width: 30
+      height: 76
+    spriteID: e17c3891e2edd2843bb51dd79b25549a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 341}
+  - name: clown cat_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 30
+      height: 75
+    spriteID: 25d8429bc41e1be4cab5404b6063e4ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
+  - name: clown cat_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 87
+      width: 30
+      height: 74
+    spriteID: 27fa5e43c7f3bbe419ff4c1550dfe9be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 87}
+  - name: clown cat_Frame_13
+    originalName: 
+    pivot: {x: 0.44117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 260
+      width: 34
+      height: 73
+    spriteID: cfe3dd4abf28264459cb58cad01e4b34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 260}
+  - name: clown cat_Frame_14
+    originalName: 
+    pivot: {x: 0.4166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 4
+      width: 36
+      height: 62
+    spriteID: e022a0e797f3cad43aa25e67ec4e7b3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 4}
+  - name: clown cat_Frame_15
+    originalName: 
+    pivot: {x: 0.4054054, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 130
+      width: 37
+      height: 53
+    spriteID: c9880086da07cf049b3105a66a2e0e90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 130}
+  - name: clown cat_Frame_16
+    originalName: 
+    pivot: {x: 0.4054054, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 191
+      width: 37
+      height: 52
+    spriteID: 5078df917d10a004eb5b4443460cf07c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 191}
+  - name: clown cat_Frame_17
+    originalName: 
+    pivot: {x: 0.4054054, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 251
+      width: 37
+      height: 52
+    spriteID: 75077a8c0635f8a4bb8b1cc74130eb3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 251}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -150,14 +490,150 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: clown cat
+    - name: clown cat_Frame_0
       frameIndex: 0
       cellRect:
-        x: 1
+        x: 9
         y: 0
         width: 30
         height: 52
       spriteId: 0c2182d58ca68e148ac99dbc8787dd28
+    - name: clown cat_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: 0
+        width: 37
+        height: 55
+      spriteId: 15f0fc7ed21a2c14f8a3b0a909077ba4
+    - name: clown cat_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 3
+        y: 0
+        width: 36
+        height: 52
+      spriteId: ee147121c4fe98d4c8fb2a3a18460913
+    - name: clown cat_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 7
+        y: 0
+        width: 32
+        height: 52
+      spriteId: 9977bfe3a6d7ff24098a62dfea0a31d2
+    - name: clown cat_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 0
+        width: 37
+        height: 55
+      spriteId: cee3ea8e9977630488154d2ba4475706
+    - name: clown cat_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 0
+        width: 35
+        height: 53
+      spriteId: 798d62bfe4db4f743908f68e56110def
+    - name: clown cat_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 0
+        width: 35
+        height: 65
+      spriteId: 4a4a7710460a75240ab3b675caf1143d
+    - name: clown cat_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: 0
+        width: 35
+        height: 77
+      spriteId: 09c298153b77807438a4011d1a0faefa
+    - name: clown cat_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: 0
+        width: 35
+        height: 79
+      spriteId: 4d144a5a14291b7468299f4532017d09
+    - name: clown cat_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 4
+        y: 0
+        width: 35
+        height: 76
+      spriteId: 64fee6b7163816a408d7e39f7c7397bb
+    - name: clown cat_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 9
+        y: 0
+        width: 30
+        height: 76
+      spriteId: e17c3891e2edd2843bb51dd79b25549a
+    - name: clown cat_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 9
+        y: 0
+        width: 30
+        height: 75
+      spriteId: 25d8429bc41e1be4cab5404b6063e4ff
+    - name: clown cat_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 9
+        y: 0
+        width: 30
+        height: 74
+      spriteId: 27fa5e43c7f3bbe419ff4c1550dfe9be
+    - name: clown cat_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 0
+        width: 34
+        height: 73
+      spriteId: cfe3dd4abf28264459cb58cad01e4b34
+    - name: clown cat_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 9
+        y: 0
+        width: 36
+        height: 62
+      spriteId: e022a0e797f3cad43aa25e67ec4e7b3d
+    - name: clown cat_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 9
+        y: 0
+        width: 37
+        height: 53
+      spriteId: c9880086da07cf049b3105a66a2e0e90
+    - name: clown cat_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 9
+        y: 0
+        width: 37
+        height: 52
+      spriteId: 5078df917d10a004eb5b4443460cf07c
+    - name: clown cat_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 9
+        y: 0
+        width: 37
+        height: 52
+      spriteId: 75077a8c0635f8a4bb8b1cc74130eb3c
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -200,4 +676,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 64}
+  canvasSize: {x: 48, y: 80}

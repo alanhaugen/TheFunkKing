@@ -2,7 +2,27 @@ fileFormatVersion: 2
 guid: 560f71f176289b841a6655232df54422
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: fot
+    second: {fileID: 7400000, guid: ce952483912b4b744a685bbf7fb53f02, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: landing
+    second: {fileID: 7400000, guid: ee6dbfa99fb0abd4c94e1ff879aba030, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: runn
+    second: {fileID: 7400000, guid: d27afd2044d97ba439736b868d453390, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: tiiiuuuuuuuuuuyut
+    second: {fileID: 7400000, guid: 76f40437c7695024791bc5c2f367aea4, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +117,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638420467649232002
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,16 +143,256 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: big money man
     originalName: 
-    pivot: {x: 0.475, y: 0}
+    pivot: {x: 0.18749999, y: -0.064516135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 4
+      width: 40
+      height: 62
+    spriteID: b955bd6281b46534c9480aedc4296965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 4}
+  - name: big money man_Frame_2
+    originalName: 
+    pivot: {x: 0.18749999, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 78
+      width: 40
+      height: 64
+    spriteID: eed7823635837f34ea3c2569e3e640b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 78}
+  - name: big money man_Frame_3
+    originalName: 
+    pivot: {x: 0.18749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 144
+      width: 40
+      height: 66
+    spriteID: d605ea1cf5992d84987e613cca2f3c68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 144}
+  - name: big money man_Frame_4
+    originalName: 
+    pivot: {x: 0.18749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 4
+      width: 40
+      height: 66
+    spriteID: 1e19856f3c4eb7a4db9932e79d401054
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 4}
+  - name: big money man_Frame_5
+    originalName: 
+    pivot: {x: 0.18749999, y: -0.015151515}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 78
+      width: 40
+      height: 66
+    spriteID: 6725e76d973e4ba4aa9ec78ef2ce7ceb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 78}
+  - name: big money man_Frame_6
+    originalName: 
+    pivot: {x: 0.18749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 152
+      width: 40
+      height: 66
+    spriteID: c68e4e6d506199b4dabc818c7ef22922
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 152}
+  - name: big money man_Frame_7
+    originalName: 
+    pivot: {x: 0.18749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 40
+      height: 66
+    spriteID: 56dee65c232c10943ab471b542542a20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 4}
+  - name: big money man_Frame_8
+    originalName: 
+    pivot: {x: 0.18749999, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 150
+      width: 40
+      height: 64
+    spriteID: a6e28709324c4ab43aa86fff92fad737
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 150}
+  - name: big money man_Frame_9
+    originalName: 
+    pivot: {x: 0.18749999, y: -0.064516135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 74
+      width: 40
+      height: 62
+    spriteID: 0b7188ad2237e444b914d9d32d296825
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 74}
+  - name: big money man_Frame_0
+    originalName: 
+    pivot: {x: 0.18749999, y: -0.064516135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 144
+      width: 40
+      height: 62
+    spriteID: 8796f9754c0bf6840855c654cf24f699
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 144}
+  - name: big money man_Frame_10
+    originalName: 
+    pivot: {x: 0.18749999, y: -0.064516135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 4
+      width: 40
+      height: 62
+    spriteID: 7ff84fafeb1d45b468a4cb2555e22097
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 4}
+  - name: big money man_Frame_11
+    originalName: 
+    pivot: {x: 0.5462963, y: -0.064516135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 74
+      width: 54
+      height: 62
+    spriteID: 1f531e66535adc34bb7a03ba1c883ff8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 74}
+  - name: big money man_Frame_12
+    originalName: 
+    pivot: {x: 0.5545454, y: -0.064516135}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 40
+      width: 55
       height: 62
-    spriteID: b955bd6281b46534c9480aedc4296965
+    spriteID: 981a7a5579c65f54cb9b7b1734fea11b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,18 +410,150 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: big money man
-      frameIndex: 0
+    - name: big money man_Frame_1
+      frameIndex: 1
       cellRect:
-        x: 2
-        y: 0
+        x: 25
+        y: 4
         width: 40
         height: 62
       spriteId: b955bd6281b46534c9480aedc4296965
+    - name: big money man_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 25
+        y: 2
+        width: 40
+        height: 64
+      spriteId: eed7823635837f34ea3c2569e3e640b4
+    - name: big money man_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 25
+        y: 0
+        width: 40
+        height: 66
+      spriteId: d605ea1cf5992d84987e613cca2f3c68
+    - name: big money man_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 25
+        y: 0
+        width: 40
+        height: 66
+      spriteId: 1e19856f3c4eb7a4db9932e79d401054
+    - name: big money man_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 25
+        y: 1
+        width: 40
+        height: 66
+      spriteId: 6725e76d973e4ba4aa9ec78ef2ce7ceb
+    - name: big money man_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 0
+        width: 40
+        height: 66
+      spriteId: c68e4e6d506199b4dabc818c7ef22922
+    - name: big money man_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 25
+        y: 0
+        width: 40
+        height: 66
+      spriteId: 56dee65c232c10943ab471b542542a20
+    - name: big money man_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 25
+        y: 2
+        width: 40
+        height: 64
+      spriteId: a6e28709324c4ab43aa86fff92fad737
+    - name: big money man_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 25
+        y: 4
+        width: 40
+        height: 62
+      spriteId: 0b7188ad2237e444b914d9d32d296825
+    - name: big money man_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 25
+        y: 4
+        width: 40
+        height: 62
+      spriteId: 8796f9754c0bf6840855c654cf24f699
+    - name: big money man_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 4
+        width: 40
+        height: 62
+      spriteId: 7ff84fafeb1d45b468a4cb2555e22097
+    - name: big money man_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 3
+        y: 4
+        width: 54
+        height: 62
+      spriteId: 1f531e66535adc34bb7a03ba1c883ff8
+    - name: big money man_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 4
+        width: 55
+        height: 62
+      spriteId: 981a7a5579c65f54cb9b7b1734fea11b
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 42, y: 64}
+  canvasSize: {x: 65, y: 68}

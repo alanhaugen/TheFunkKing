@@ -1,18 +1,8 @@
 fileFormatVersion: 2
-guid: b2e4d354375f6a0458540e8548681c1d
+guid: 06cfe42a530ea6244bae85b9002c7eb8
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: idel
-    second: {fileID: 7400000, guid: e3da2cdd0f3bd1a4a94e0f7aee768c8d, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: walk
-    second: {fileID: 7400000, guid: 87cd84e2bd4d479459ff786d9ba6bd35, type: 2}
+  externalObjects: {}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -107,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638420478105475228
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -131,38 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: 'shark '
+  - name: king_160_shocked_Frame_0
     originalName: 
-    pivot: {x: 0.45833334, y: -0.039215688}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 184
-      width: 36
-      height: 51
-    spriteID: 1a46f3c3c06b4fe40b0d33e05e8e1a0a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 184}
-  - name: shark _Frame_2
-    originalName: 
-    pivot: {x: 0.45833334, y: -0.01923077}
+    pivot: {x: 0.35135135, y: -0.0067567565}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 36
-      height: 52
-    spriteID: c8a1c15754ce49545994d5b39f7165d6
+      width: 111
+      height: 148
+    spriteID: 3b281b9d6fd4eea42b26ad660a744c57
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -171,18 +141,38 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: shark _Frame_3
+  - name: king_160_shocked_Frame_1
     originalName: 
-    pivot: {x: 0.45833334, y: -0.039215688}
+    pivot: {x: 0.3173077, y: -0.006849315}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 48
+      x: 4
+      y: 160
+      width: 104
+      height: 146
+    spriteID: 7f6532c84f9952a4eae7c35e1d08c2c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: king_160_shocked_Frame_2
+    originalName: 
+    pivot: {x: 0.33663368, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
       y: 4
-      width: 36
-      height: 51
-    spriteID: b279075b85426a24897c182e952888c0
+      width: 101
+      height: 137
+    spriteID: 055c3750a6fb00844a4cc7bba01d4fba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,19 +180,59 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 48, y: 4}
-  - name: shark _Frame_0
+    uvTransform: {x: 123, y: 4}
+  - name: king_160_shocked_Frame_3
     originalName: 
-    pivot: {x: 0.45833334, y: -0.01923077}
+    pivot: {x: 0.33663368, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 149
+      width: 101
+      height: 137
+    spriteID: 207c9e605d4397e459821e921eca3cee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 149}
+  - name: king_160_shocked_Frame_4
+    originalName: 
+    pivot: {x: 0.33663368, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 294
+      width: 101
+      height: 137
+    spriteID: e58e9c9e2ee023948b80c8d58971264d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 294}
+  - name: king_160_shocked_Frame_5
+    originalName: 
+    pivot: {x: 0.3173077, y: -0.006849315}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 64
-      width: 36
-      height: 52
-    spriteID: 337186c6e6e38a74a85bfe6fc8256e97
+      y: 314
+      width: 104
+      height: 146
+    spriteID: 2fa6ae3f10c15f2439b6be6d06ec6daa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,116 +240,68 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 64}
-  - name: shark _Frame_4
-    originalName: 
-    pivot: {x: 0.45833334, y: -0.01923077}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 124
-      width: 36
-      height: 52
-    spriteID: 11c9f5deeec0dd24b9139a0ef0c13df4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 124}
+    uvTransform: {x: 4, y: 314}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1074759221
-    name: 'shark '
+    guid: -1503967183
+    name: king_160_shocked
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: shark _Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 3
-        y: 2
-        width: 36
-        height: 51
-      spriteId: 1a46f3c3c06b4fe40b0d33e05e8e1a0a
-    - name: shark _Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 3
-        y: 1
-        width: 36
-        height: 52
-      spriteId: c8a1c15754ce49545994d5b39f7165d6
-    - name: shark _Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 3
-        y: 2
-        width: 36
-        height: 51
-      spriteId: b279075b85426a24897c182e952888c0
-    - name: shark _Frame_0
+    - name: king_160_shocked_Frame_0
       frameIndex: 0
       cellRect:
-        x: 3
+        x: 41
         y: 1
-        width: 36
-        height: 52
-      spriteId: 337186c6e6e38a74a85bfe6fc8256e97
-    - name: shark _Frame_4
+        width: 111
+        height: 148
+      spriteId: 3b281b9d6fd4eea42b26ad660a744c57
+    - name: king_160_shocked_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 47
+        y: 1
+        width: 104
+        height: 146
+      spriteId: 7f6532c84f9952a4eae7c35e1d08c2c8
+    - name: king_160_shocked_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 46
+        y: 0
+        width: 101
+        height: 137
+      spriteId: 055c3750a6fb00844a4cc7bba01d4fba
+    - name: king_160_shocked_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 46
+        y: 0
+        width: 101
+        height: 137
+      spriteId: 207c9e605d4397e459821e921eca3cee
+    - name: king_160_shocked_Frame_4
       frameIndex: 4
       cellRect:
-        x: 3
+        x: 46
+        y: 0
+        width: 101
+        height: 137
+      spriteId: e58e9c9e2ee023948b80c8d58971264d
+    - name: king_160_shocked_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 47
         y: 1
-        width: 36
-        height: 52
-      spriteId: 11c9f5deeec0dd24b9139a0ef0c13df4
+        width: 104
+        height: 146
+      spriteId: 2fa6ae3f10c15f2439b6be6d06ec6daa
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 39, y: 64}
+  canvasSize: {x: 160, y: 160}
