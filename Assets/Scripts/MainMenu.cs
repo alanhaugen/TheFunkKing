@@ -16,8 +16,6 @@ public class MainMenu : MonoBehaviour
         kingMood.ClearHappinessNumber();
 
 
-        currentJoy = minJoy;
-        joyBar.SetMinJoy(minJoy);
 
     }
     public void PlayGame()

@@ -11,15 +11,21 @@ public class KingMoodScript : MonoBehaviour
     public TMP_Text kingsHappText;
 
     //Glenn code start
-    public JoyBar joyB;
     public int minJoy;
     public int currentJoy;
     public JoyBar joyBar;
     //Glenn code stop
-    
+
+    private int minChar = 1;
+    public int ToalCharacters = 7;
+
+    public int entertainerID;
+
     // Start is called before the first frame update
     void Start()
     {
+        entertainerID = Random.Range(minChar, ToalCharacters);
+        PlayerPrefs.SetInt("entertainerID", entertainerID);
         LoadHappinessNumber();
 
         //Glenn code start
@@ -49,7 +55,6 @@ public class KingMoodScript : MonoBehaviour
         currentJoy += joy;
 
         joyBar.SetJoy(currentJoy);
-
     }
     //Glenn code stop
 

@@ -7,6 +7,10 @@ public class ButtonScript : MonoBehaviour
     public SceneMover _sceneMover;
     public int entertainerID;
 
+    
+    private int minChar = 1;
+    public int TotalCharacters = 7;
+
     public KingMoodScript _KingMoodScript;
     // Start is called before the first frame update
     void Start()
@@ -25,8 +29,14 @@ public class ButtonScript : MonoBehaviour
         
         if (Input.GetKeyDown("d") && _sceneMover.currentScene == "EiriksTestScene")
         {
-            entertainerID++;
-            _KingMoodScript.HappinessUp();
+            // Get a random new character to present to the player
+            entertainerID = Random.Range(minChar, TotalCharacters);
+
+            // Generate new character and present it to the player
+            //SpawnEntertainer();
+
+            // Not sure why this is here? Leaving it out...
+            //_KingMoodScript.HappinessUp();
         }
     }
 }

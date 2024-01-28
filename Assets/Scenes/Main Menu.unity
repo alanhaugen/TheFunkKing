@@ -1879,31 +1879,31 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1725867150}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3093.6655
+      value: 12559.272
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
       propertyPath: m_LocalScale.y
-      value: 18521.865
+      value: 75192.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1598.7533
+      value: 6490.4175
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 192.13
+      value: -180.1277
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: -503.39957
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 135
+      value: 548.056
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4135,6 +4135,7 @@ RectTransform:
   - {fileID: 1309815287}
   - {fileID: 539679499}
   - {fileID: 21401201}
+  - {fileID: 1899417117}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4371,6 +4372,11 @@ MonoBehaviour:
   musicSource: {fileID: 0}
   SFXSource: {fileID: 0}
   background: {fileID: 0}
+--- !u!4 &1899417117 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb44f5c1262616f409f6fc11e110b2bc, type: 3}
+  m_PrefabInstance: {fileID: 834938986}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1903920327
 GameObject:
   m_ObjectHideFlags: 0
@@ -4894,4 +4900,3 @@ SceneRoots:
   - {fileID: 1725867150}
   - {fileID: 1137880321}
   - {fileID: 861570547}
-  - {fileID: 834938986}
