@@ -1,16 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ButtonScript : MonoBehaviour
 {
-    [SerializeField] Entertainer Talk;
-
+    public Text text;
     public SceneMover _sceneMover;
     public int entertainerID;
-
-    public Text text;
     
     private int minChar = 1;
     public int TotalCharacters = 7;
@@ -20,9 +18,7 @@ public class ButtonScript : MonoBehaviour
     void Start()
     {
         entertainerID = PlayerPrefs.GetInt("entertainerID");
-
-        text.text = Talk.resume;
-        
+        text.text = "big booty";
     }
 
     // Update is called once per frame
