@@ -12,6 +12,7 @@ public class AudioManeger : MonoBehaviour
 
     [Header("----------- Audio Clip -------------")]
     public AudioClip background;
+    public AudioClip mainMenu;
 
     public static AudioManeger instance;
 
@@ -27,7 +28,7 @@ public class AudioManeger : MonoBehaviour
 
     void Start()
     {
-        musicSource.clip = background;
+        musicSource.clip = mainMenu;
         musicSource.Play();
 
         if (!PlayerPrefs.HasKey("musicVolume"))
@@ -35,6 +36,12 @@ public class AudioManeger : MonoBehaviour
             PlayerPrefs.SetFloat("musicVolume", 1);
             Load();
         }
+    }
+
+    public void PlayGameMusic()
+    {
+        musicSource.clip = background;
+        musicSource.Play();
     }
 
     public void ChangeVolume()

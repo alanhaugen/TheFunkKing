@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resume: My moves will speak for 'em sel'fs
   name: Haifin. H. Dance
-  entertainerId: 0
+  entertainerId: 1
   skill: -100
   style: Joker
   profileBoothRoomAppearance: {fileID: 4052094132496510458}
