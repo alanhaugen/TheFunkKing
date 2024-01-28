@@ -20,7 +20,10 @@ public class Entertainer : MonoBehaviour
     {
         //canvas = GameObject.Find("Canvas");
         //textMeshPro = canvas.GetComponent<TextMeshPro>();
-        textMeshPro.text = resume;
+        if (textMeshPro)
+        {
+            textMeshPro.text = resume;
+        }
     }
 
     // Update is called once per frame
