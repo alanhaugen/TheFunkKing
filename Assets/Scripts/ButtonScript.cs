@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ButtonScript : MonoBehaviour
 {
+    [SerializeField] Entertainer Talk;
+
     public SceneMover _sceneMover;
     public int entertainerID;
 
+    public Text text;
     
     private int minChar = 1;
     public int TotalCharacters = 7;
@@ -16,11 +20,16 @@ public class ButtonScript : MonoBehaviour
     void Start()
     {
         entertainerID = PlayerPrefs.GetInt("entertainerID");
+
+        text.text = Talk.resume;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
         if (Input.GetKeyDown("a") /*&& _sceneMover.currentScene == "EiriksTestScene"*/)
         {
             PlayerPrefs.SetInt("entertainerID", entertainerID);

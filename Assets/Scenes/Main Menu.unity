@@ -4157,10 +4157,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kingsHappiness: 0
   kingsHappText: {fileID: 0}
-  joyB: {fileID: 0}
   minJoy: 0
   currentJoy: 0
   joyBar: {fileID: 0}
+  ToalCharacters: 7
+  entertainerID: 0
 --- !u!1 &1750948173
 GameObject:
   m_ObjectHideFlags: 0
