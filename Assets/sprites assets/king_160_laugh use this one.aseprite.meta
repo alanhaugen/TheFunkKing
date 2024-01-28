@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eb43748653150df428e0922608aa9937
+guid: cb97922c86d24f44295c11eef9c50ab2
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 111
       height: 149
-    spriteID: 1026fff241cfc6a458f740de33114633
+    spriteID: 7540665cb4b6aaf42b457546d10215b8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 161
       width: 111
       height: 149
-    spriteID: 730b86f81a57753468938168e8bbfccd
+    spriteID: 9a956c5080b1e2040984307961ffeb82
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 318
       width: 111
       height: 149
-    spriteID: 53621699ed1872446b126b9512ac4360
+    spriteID: 57a2a49f1f655c14fbd128816cf8fd90
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 106
       height: 142
-    spriteID: 2fe7546e8c9a937479c265b800f01c21
+    spriteID: 627dd1ee3c89dfe4091a77ffcdbf25cb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 301
       width: 101
       height: 137
-    spriteID: 06cb8a1441ce48144bf07056e0c8b32e
+    spriteID: ac7766a37292cb1468821c426c149a8b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 154
       width: 101
       height: 139
-    spriteID: 4bd7f0e2d8ddd49409c438a698c5b7bb
+    spriteID: 60377a5609a8d8a439c7eb780177fedc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -257,7 +257,7 @@ ScriptedImporter:
         y: 1
         width: 111
         height: 149
-      spriteId: 1026fff241cfc6a458f740de33114633
+      spriteId: 7540665cb4b6aaf42b457546d10215b8
     - name: king_160_laugh use this one_Frame_1
       frameIndex: 1
       cellRect:
@@ -265,7 +265,7 @@ ScriptedImporter:
         y: 1
         width: 111
         height: 149
-      spriteId: 730b86f81a57753468938168e8bbfccd
+      spriteId: 9a956c5080b1e2040984307961ffeb82
     - name: king_160_laugh use this one_Frame_2
       frameIndex: 2
       cellRect:
@@ -273,7 +273,7 @@ ScriptedImporter:
         y: 1
         width: 111
         height: 149
-      spriteId: 53621699ed1872446b126b9512ac4360
+      spriteId: 57a2a49f1f655c14fbd128816cf8fd90
     - name: king_160_laugh use this one_Frame_3
       frameIndex: 3
       cellRect:
@@ -281,7 +281,7 @@ ScriptedImporter:
         y: 1
         width: 106
         height: 142
-      spriteId: 2fe7546e8c9a937479c265b800f01c21
+      spriteId: 627dd1ee3c89dfe4091a77ffcdbf25cb
     - name: king_160_laugh use this one_Frame_4
       frameIndex: 4
       cellRect:
@@ -289,7 +289,7 @@ ScriptedImporter:
         y: 0
         width: 101
         height: 137
-      spriteId: 06cb8a1441ce48144bf07056e0c8b32e
+      spriteId: ac7766a37292cb1468821c426c149a8b
     - name: king_160_laugh use this one_Frame_5
       frameIndex: 5
       cellRect:
@@ -297,7 +297,7 @@ ScriptedImporter:
         y: 0
         width: 101
         height: 139
-      spriteId: 4bd7f0e2d8ddd49409c438a698c5b7bb
+      spriteId: 60377a5609a8d8a439c7eb780177fedc
     linkedCells: []
     parentIndex: -1
   platformSettings: []

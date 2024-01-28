@@ -18,8 +18,12 @@ public class Entertainer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        textMeshPro.text = resume;
+        //canvas = GameObject.Find("Canvas");
+        //textMeshPro = canvas.GetComponent<TextMeshPro>();
+        if (textMeshPro)
+        {
+            textMeshPro.text = resume;
+        }
     }
 
     // Update is called once per frame

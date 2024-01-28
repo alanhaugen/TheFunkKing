@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 52
-    spriteID: d16acef6a333691449951467d52d8aaa
+    spriteID: c8a1c15754ce49545994d5b39f7165d6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 51
-    spriteID: 0af14fa5a2f2c6945ba82b69b45459d3
+    spriteID: b279075b85426a24897c182e952888c0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 64
       width: 36
       height: 52
-    spriteID: a06ffa35139606f449d15463538f6190
+    spriteID: 337186c6e6e38a74a85bfe6fc8256e97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 124
       width: 36
       height: 52
-    spriteID: 3803f02740bee084baedd249ad4dd2c6
+    spriteID: 11c9f5deeec0dd24b9139a0ef0c13df4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 1
         width: 36
         height: 52
-      spriteId: d16acef6a333691449951467d52d8aaa
+      spriteId: c8a1c15754ce49545994d5b39f7165d6
     - name: shark _Frame_3
       frameIndex: 3
       cellRect:
@@ -253,7 +253,7 @@ ScriptedImporter:
         y: 2
         width: 36
         height: 51
-      spriteId: 0af14fa5a2f2c6945ba82b69b45459d3
+      spriteId: b279075b85426a24897c182e952888c0
     - name: shark _Frame_0
       frameIndex: 0
       cellRect:
@@ -261,7 +261,7 @@ ScriptedImporter:
         y: 1
         width: 36
         height: 52
-      spriteId: a06ffa35139606f449d15463538f6190
+      spriteId: 337186c6e6e38a74a85bfe6fc8256e97
     - name: shark _Frame_4
       frameIndex: 4
       cellRect:
@@ -269,7 +269,7 @@ ScriptedImporter:
         y: 1
         width: 36
         height: 52
-      spriteId: 3803f02740bee084baedd249ad4dd2c6
+      spriteId: 11c9f5deeec0dd24b9139a0ef0c13df4
     linkedCells: []
     parentIndex: -1
   platformSettings: []

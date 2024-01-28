@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 146
       width: 37
       height: 64
-    spriteID: df99c6da740af024392edaed7f52e2a2
+    spriteID: 8d0c9e4fc29f6c44aaa89b9b3a523849
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 73
       width: 37
       height: 65
-    spriteID: 6e31334b5813e05458c9d5519baa00d2
+    spriteID: d6413737850ae4d4cb3ef9b720282f58
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 218
       width: 37
       height: 64
-    spriteID: 8b765f2ce29de964dbb4f54b4d13ca03
+    spriteID: cae049c7da7315f41b9d3c916831e723
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 278
       width: 43
       height: 65
-    spriteID: a8c3113fc81ba8649bb861781ef7ac0e
+    spriteID: 382c5a6b41ffcbc4ea84dc27e379c21b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 418
       width: 50
       height: 54
-    spriteID: 0b7bad4a06d8af24b959acba0f7bf392
+    spriteID: 31755e6a9913d254eb55f7c0ed16065d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -252,7 +252,7 @@ ScriptedImporter:
       y: 4
       width: 44
       height: 61
-    spriteID: ea4325052a00dc04dab43c1c958fc26e
+    spriteID: 077b696ca54e3284297b05323b492644
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -272,7 +272,7 @@ ScriptedImporter:
       y: 71
       width: 47
       height: 62
-    spriteID: 712f2fd204dd79243b7f2366b60b0429
+    spriteID: f02020f7e04a5ee4381b24c4ed455c0f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 351
       width: 46
       height: 59
-    spriteID: fcdbabdf9bc095a46844ef1f9bd8a229
+    spriteID: 547f96e5b3091e549bef4c3cc295cc53
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -312,7 +312,7 @@ ScriptedImporter:
       y: 4
       width: 50
       height: 59
-    spriteID: 7e00a157724e2c04ba3e5cab0d395cb1
+    spriteID: 6cbef70d1f8f67a4a8391d4b4793690f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -332,7 +332,7 @@ ScriptedImporter:
       y: 211
       width: 48
       height: 59
-    spriteID: d316fcb13f9f0f04393cdba7b220e26d
+    spriteID: 58b8ae6bd3641974dadf0c06a14a2c34
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -352,7 +352,7 @@ ScriptedImporter:
       y: 141
       width: 46
       height: 62
-    spriteID: 91fd598cb37f0f5408ab7186dc97db9d
+    spriteID: e8767541bd3049346b8aa262b093afbe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -372,7 +372,7 @@ ScriptedImporter:
       y: 290
       width: 37
       height: 64
-    spriteID: 3270834be2cc1874193f25ce3d2492b2
+    spriteID: beee5b4c13a2c7a46b5c5dc8d71b79a1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -405,7 +405,7 @@ ScriptedImporter:
         y: 0
         width: 37
         height: 64
-      spriteId: df99c6da740af024392edaed7f52e2a2
+      spriteId: 8d0c9e4fc29f6c44aaa89b9b3a523849
     - name: Cow lady_Frame_2
       frameIndex: 2
       cellRect:
@@ -413,7 +413,7 @@ ScriptedImporter:
         y: 0
         width: 37
         height: 65
-      spriteId: 6e31334b5813e05458c9d5519baa00d2
+      spriteId: d6413737850ae4d4cb3ef9b720282f58
     - name: Cow lady_Frame_3
       frameIndex: 3
       cellRect:
@@ -421,7 +421,7 @@ ScriptedImporter:
         y: 0
         width: 37
         height: 64
-      spriteId: 8b765f2ce29de964dbb4f54b4d13ca03
+      spriteId: cae049c7da7315f41b9d3c916831e723
     - name: Cow lady_Frame_4
       frameIndex: 4
       cellRect:
@@ -429,7 +429,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 65
-      spriteId: a8c3113fc81ba8649bb861781ef7ac0e
+      spriteId: 382c5a6b41ffcbc4ea84dc27e379c21b
     - name: Cow lady_Frame_5
       frameIndex: 5
       cellRect:
@@ -437,7 +437,7 @@ ScriptedImporter:
         y: 0
         width: 50
         height: 54
-      spriteId: 0b7bad4a06d8af24b959acba0f7bf392
+      spriteId: 31755e6a9913d254eb55f7c0ed16065d
     - name: Cow lady_Frame_6
       frameIndex: 6
       cellRect:
@@ -445,7 +445,7 @@ ScriptedImporter:
         y: 0
         width: 44
         height: 61
-      spriteId: ea4325052a00dc04dab43c1c958fc26e
+      spriteId: 077b696ca54e3284297b05323b492644
     - name: Cow lady_Frame_7
       frameIndex: 7
       cellRect:
@@ -453,7 +453,7 @@ ScriptedImporter:
         y: 0
         width: 47
         height: 62
-      spriteId: 712f2fd204dd79243b7f2366b60b0429
+      spriteId: f02020f7e04a5ee4381b24c4ed455c0f
     - name: Cow lady_Frame_8
       frameIndex: 8
       cellRect:
@@ -461,7 +461,7 @@ ScriptedImporter:
         y: 0
         width: 46
         height: 59
-      spriteId: fcdbabdf9bc095a46844ef1f9bd8a229
+      spriteId: 547f96e5b3091e549bef4c3cc295cc53
     - name: Cow lady_Frame_9
       frameIndex: 9
       cellRect:
@@ -469,7 +469,7 @@ ScriptedImporter:
         y: 0
         width: 50
         height: 59
-      spriteId: 7e00a157724e2c04ba3e5cab0d395cb1
+      spriteId: 6cbef70d1f8f67a4a8391d4b4793690f
     - name: Cow lady_Frame_10
       frameIndex: 10
       cellRect:
@@ -477,7 +477,7 @@ ScriptedImporter:
         y: 0
         width: 48
         height: 59
-      spriteId: d316fcb13f9f0f04393cdba7b220e26d
+      spriteId: 58b8ae6bd3641974dadf0c06a14a2c34
     - name: Cow lady_Frame_11
       frameIndex: 11
       cellRect:
@@ -485,7 +485,7 @@ ScriptedImporter:
         y: 0
         width: 46
         height: 62
-      spriteId: 91fd598cb37f0f5408ab7186dc97db9d
+      spriteId: e8767541bd3049346b8aa262b093afbe
     - name: Cow lady_Frame_12
       frameIndex: 12
       cellRect:
@@ -493,7 +493,7 @@ ScriptedImporter:
         y: 0
         width: 37
         height: 64
-      spriteId: 3270834be2cc1874193f25ce3d2492b2
+      spriteId: beee5b4c13a2c7a46b5c5dc8d71b79a1
     linkedCells: []
     parentIndex: -1
   platformSettings:
