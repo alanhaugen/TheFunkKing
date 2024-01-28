@@ -156,7 +156,7 @@ RectTransform:
   m_Father: {fileID: 1750948174}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3431,8 +3431,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1903920328}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3998,6 +3998,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kingsHappiness: 0
   kingsHappText: {fileID: 0}
+  minJoy: 0
+  currentJoy: 0
+  joyBar: {fileID: 0}
 --- !u!1 &1750948173
 GameObject:
   m_ObjectHideFlags: 0

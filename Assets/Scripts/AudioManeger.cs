@@ -22,10 +22,7 @@ public class AudioManeger : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        
     }
 
     void Start()
