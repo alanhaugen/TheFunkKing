@@ -13,6 +13,21 @@ public class AudioManeger : MonoBehaviour
     [Header("----------- Audio Clip -------------")]
     public AudioClip background;
 
+    public static AudioManeger instance;
+
+    private void Awake()
+    {
+        if (instance==null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     void Start()
     {
         musicSource.clip = background;
