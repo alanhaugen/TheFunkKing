@@ -14,24 +14,4 @@ public class Entertainer : MonoBehaviour
     public GameObject sideKingRoomAppearance;
     private GameObject canvas;
     public TMP_Text textMeshPro;
-<<<<<<< Updated upstream
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //canvas = GameObject.Find("Canvas");
-        //textMeshPro = canvas.GetComponent<TextMeshPro>();
-        if (textMeshPro)
-        {
-            textMeshPro.text = resume;
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-=======
->>>>>>> Stashed changes
 }
